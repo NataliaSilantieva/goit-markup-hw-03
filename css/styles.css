@@ -7,6 +7,7 @@
     --social-link-color:#AFB1B8;   
 }
 
+
 body {
     background-color:var(--secondary-text-color); 
     font-family: Roboto, sans-serif;
@@ -19,6 +20,8 @@ a{
 ul{
     list-style-type: none;
 }
+
+
 .button{
     background-color: var(--link-color);
     color: var(--secondary-text-color);
@@ -70,25 +73,88 @@ ul{
     line-height: 1.6;
     text-align: center;
 }
+<!-- Шапка сайта -->
+nav{
+    display:inline-block;
+}
+ .container{
+    display: flex;
+    width: 1230px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+
+
+
+    
+    
+}
+.container .upper-logo{
+    display: flex;
+    display: inline-block;
+    margin: 24px 0 25px 0;
+    display: inline-block;
+}
+
+.pages{
+    display: flex;
+    display: inline-block;
+    margin: 0;
+    padding: 0; 
+    outline: 2px solid aqua;  
+}
+.pages-list{
+    display: flex;
+    display: inline-block;
+    margin: 32px 50px 32px 0 ;
+    padding: 0;
+ }
+
+ .pages-list:first-child {
+     margin-left: 86px;
+ }
+ .pages-list .site-nav :last-child{
+     margin-right: 0;
+ }
+
 .current{
     color: var(--link-color);
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
+    
 }
+
+    
+
 .site-nav{
     color:var(--primary-text-color) ;
     letter-spacing: 0.02em;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1;
+
 }
 .site-nav:hover,
 .site-nav:focus{
     color:var(--link-color);
 }
-.site-nav-adress a {
+
+.address{
+    display: flex;
+    display:inline-block;  
+}
+.site-address .li{
+    display: flex;
+    display:inline-block;   
+}
+.site-address{
+    display: flex;
+    display: inline-block;
+    margin-left:  360px;
+}
+ .address-list {
     color: var(--accent-color);
     letter-spacing: 0.2em;
     font-style: normal;
@@ -96,11 +162,23 @@ ul{
     font-size: 14px;
     line-height: 1.1px;
     letter-spacing: 0.02em;
+
+    display: flex;
+    display: inline-block;
+    margin: 32px 0 ;
+    padding: 0;
 }
-.site-nav-adress a:hover,
-.site-nav-adress a:focus{
+.address-list :first-child{
+    margin-right: 50px;   
+}
+
+ .address-list:hover,
+ .address-list:focus{
     color:var(--link-color);
 }
+
+
+<!-- Герой -->
 
 .hero{
     letter-spacing: 0.06em;
@@ -112,6 +190,8 @@ ul{
     line-height: 1.4;
     text-align: center;
 }
+<!--преимущества-->
+
 .icon:hover,
 .icon:focus{
     color:var(--link-color);   
@@ -126,10 +206,9 @@ ul{
     font-size: 14px;
     line-height: 1.7;
 }
-.image:hover,
-.image:focus{
-    color:var(--link-color);
-}
+
+<!--Продукты-->
+
 .section{
     letter-spacing: 0,03em;
 }
@@ -153,7 +232,8 @@ ul{
         text-align: center;
         font-weight: 700;
     }
-}
+    <!--Комманда-->
+
 .team-names{
     font-weight: 500;
     font-size: 16px;
@@ -208,6 +288,9 @@ ul{
 .works-list:focus{
     color:var(--link-color);
 }
+
+<!--Клиенты-->
+
 .section-companies:focus{
     border: var(--link-color)
 }
