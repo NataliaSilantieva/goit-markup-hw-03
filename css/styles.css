@@ -30,6 +30,8 @@ ul{
     line-height: 1.9;
     align-items: center;
     text-align: center;
+
+
 }
 .hero.button:hover,
 .hero .button:focus{
@@ -74,20 +76,22 @@ ul{
     text-align: center;
 }
 <!-- Шапка сайта -->
-nav{
+.container nav{
+    display:flex;
     display:inline-block;
 }
  .container{
     display: flex;
+    display:inline-block;
     width: 1230px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
-
-
-
     
-    
+}
+nav{
+    display: flex;
+    display:inline-block; 
 }
 .container .upper-logo{
     display: flex;
@@ -113,7 +117,7 @@ nav{
  .pages-list:first-child {
      margin-left: 86px;
  }
- .pages-list .site-nav :last-child{
+ .pages-list :last-child{
      margin-right: 0;
  }
 
@@ -145,15 +149,16 @@ nav{
     display: flex;
     display:inline-block;  
 }
-.site-address .li{
-    display: flex;
-    display:inline-block;   
-}
 .site-address{
     display: flex;
     display: inline-block;
     margin-left:  360px;
 }
+.site-address .li{
+    display: flex;
+    display:inline-block;   
+}
+
  .address-list {
     color: var(--accent-color);
     letter-spacing: 0.2em;
