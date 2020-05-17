@@ -275,11 +275,14 @@ nav{
     font-size: 14px;
     line-height: 1.1;
     letter-spacing: 0.03em;
+
+
 }
 .section-list:hover,
 .section:focus{
     color: var(--link-color);
 }
+
 .section-title {
         color: var(--primary-text-color);
         font-size: 36px;
@@ -298,17 +301,71 @@ nav{
     font-weight: 500;
     font-size: 16px;
     line-height: 1.2;
+
+   display: flex;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+
+}
+.cards {
+    display: flex;
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+}
+
+.cards+ .cards{
+    padding-left: 30px;
+}
+.cards :first-child{
+    padding-left: 0;
+}
+
+  
+.names{
+    display: flex;
+    margin: 0;
+    padding: 0 96px 10px 96px;
+    
 }
 .occupation{
     color: var(--accent-color);
     font-size: 16px;
     line-height: 1.2px;
+    padding: 0 74px 16px 74px ;
+
+    margin: 0;
+}
+.social {
+    display: flex;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+}
+.social li{
+    display: flex;
+    display: inline-block;
+    margin: 0;
+    padding: 0;   
 }
 .section-team{
     background-color: var(--buttons-background);
+
+    
 }
 .social-links{
     color:var(--social-link-color);
+    
+    
+    display: flex;
+    display: inline-block;
+    margin: 0;
+    padding: 0 39.16px 40px 39.16px;
+
+}
+.social-links :first-child{
+    padding-left: 0;
 }
 .social-links:hover,
 .social-links:focus{
