@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+  }
+  
+  *,
+  *::before,
+  *::after {
+    box-sizing: inherit;
+  }
+
 :root{
     --primary-text-color: #212121;
     --secondary-text-color:#ffffff;
@@ -11,6 +21,8 @@
 body {
     background-color:var(--secondary-text-color); 
     font-family: Roboto, sans-serif;
+
+    margin: 0;
 }
 a{
     text-decoration: none;
@@ -87,6 +99,7 @@ ul{
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
+    align-items: center;
     
 }
 nav{
@@ -145,18 +158,19 @@ nav{
     color:var(--link-color);
 }
 
-.address{
-    display: flex;
-    display:inline-block;  
+.contacts{
+    
+    display:inline-block;
+    margin-left:  360px;  
 }
-.site-address{
-    display: flex;
-    display: inline-block;
-    margin-left:  360px;
-}
-.site-address .li{
-    display: flex;
+
+.site-address {
+    
     display:inline-block;   
+}
+.site-address li{
+    display:inline-block;  
+      
 }
 
  .address-list {
@@ -168,10 +182,10 @@ nav{
     line-height: 1.1px;
     letter-spacing: 0.02em;
 
-    display: flex;
+   
     display: inline-block;
     margin: 32px 0 ;
-    padding: 0;
+  
 }
 .address-list :first-child{
     margin-right: 50px;   
@@ -194,6 +208,10 @@ nav{
     font-size: 44px;
     line-height: 1.4;
     text-align: center;
+
+    margin-top: 0;
+    margin-bottom: 0;
+    outline: solid teal;
 }
 <!--преимущества-->
 
