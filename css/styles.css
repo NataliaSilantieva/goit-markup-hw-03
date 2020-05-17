@@ -34,7 +34,12 @@ ul{
     align-items: center;
     text-align: center;
 
-    
+    display: flex;
+    display: inline-block;
+    margin: 0 0 96px 0 ;
+    padding: 10px 32px;
+    border-radius: 4px;
+    border: transparent;
 
 
 }
@@ -52,6 +57,14 @@ ul{
     font-size: 16px;
     line-height: 1.9;
     letter-spacing: 0.06em;
+    text-align: center;
+
+    display: flex;
+    display: inline-block;
+    margin: 0 0 110px 0 ;
+    padding: 10px 45px 10px 46px;
+    border-radius: 4px;
+    border: transparent;
 }
 .button-footer:hover,
 .button-footer:focus{
@@ -73,8 +86,11 @@ ul{
 
     display: flex;
     display: inline-block;
-    margin: 0 0 50px 8px;
-    padding: 0;
+    margin: 0 8px 0 0;
+    padding: 6px 22px;
+    border-radius: 4px;
+    border: transparent;
+    min-width: 101px;
 }
 .buttons :first-child{
     margin-left: 0;
@@ -236,8 +252,7 @@ nav{
     display:flex;
     margin-top: 0;
     margin-bottom: 46;
-    <!-- padding: 200px, 477px, 210px, 477px;-->
-    outline: teal;
+
     
 }
 <!--преимущества-->
