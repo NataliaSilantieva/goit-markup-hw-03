@@ -34,6 +34,8 @@ ul{
     align-items: center;
     text-align: center;
 
+    
+
 
 }
 .hero.button:hover,
@@ -67,6 +69,29 @@ ul{
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
+
+
+    display: flex;
+    display: inline-block;
+    margin: 0 0 50px 8px;
+    padding: 0;
+}
+.buttons :first-child{
+    margin-left: 0;
+}
+
+.buttons-list{
+    display: flex;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 50px 0;  
+}
+.buttons-list li{
+    display: flex;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+
 }
 .buttons:hover,
 .buttons:focus{
@@ -109,7 +134,7 @@ nav{
     display: inline-block;
     margin: 0;
     padding: 0; 
-    outline: 2px solid aqua;  
+
 }
 .pages-list{
     display: flex;
@@ -413,6 +438,13 @@ nav{
 
 <!--Клиенты-->
 
+.companies-list{
+  
+    display: flex;
+    display: inline-block;
+    margin: 0;
+    padding: 0 0 94 0 ;  
+}
 .section-companies:focus{
     border: var(--link-color)
 }
@@ -421,7 +453,22 @@ nav{
 }
 .section-companies{
     color: var(--accent-color);
+
+
+    display: flex;
+    display: inline-block;
+    margin: 0 0 0 30px;
+    padding: 20px 20px ;
+    outline:  1px solid var(--social-link-color);
+    
 }
+.companies-list :first-child{
+    margin: 0;
+}
+
+
+<!--Футер-->
+
 .footer{
     color: var(--secondary-text-color);
     background-color: #2f303a;
