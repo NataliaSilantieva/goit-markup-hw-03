@@ -302,6 +302,7 @@ nav{
 }
 .item {
     display: inline-block;
+    width: 380px;
     margin: 0;
 }
 .section-app > .item + .item{
@@ -355,6 +356,7 @@ nav{
 .cards {
     display: flex;
    display: inline-block;
+   width: 278px;
    margin: 0;
    padding: 0;
 }
