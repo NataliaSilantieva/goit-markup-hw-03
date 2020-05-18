@@ -191,20 +191,24 @@ nav{
 }
 
 .contacts{
-    
+    display: flex;
     display:inline-block;
-    margin-left:  360px;  
+    padding-left:  360px;  
 }
 
 .site-address {
+    display: flex;
     
     display:inline-block;   
 }
 .site-address li{
+    display: flex;
     display:inline-block;  
       
 }
-
+ address{
+     display: flex;
+ }
  .address-list {
     color: var(--accent-color);
     letter-spacing: 0.2em;
@@ -216,12 +220,14 @@ nav{
 
    
     display: inline-block;
-    margin: 32px 0 ;
+    margin:  0 ;
   
 }
-.address-list :first-child{
-    margin-right: 50px;   
+.site-address :last-child{
+    padding-left: 50px;
 }
+
+
 
  .address-list:hover,
  .address-list:focus{
@@ -557,7 +563,7 @@ nav{
 .colortext{
     color:var(--link-color)
 }
-.adress{
+.address{
     font-size: 14px;
     line-height: 1.7;
     font-style: normal;
@@ -566,8 +572,8 @@ nav{
     letter-spacing: 0.03em;
 
 }
-.adress:hover,
-.adress:focus{
+.address:hover,
+.address:focus{
     color: var(--link-color);
 }
 .join{
