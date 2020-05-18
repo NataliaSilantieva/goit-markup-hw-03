@@ -547,6 +547,7 @@ nav{
     color: var(--secondary-text-color)  ;
 
     display: flex;
+    margin: 0 171px 10 px 0;
 }
 .logo:hover,
 .logo:focus{
