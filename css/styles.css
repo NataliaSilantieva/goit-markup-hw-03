@@ -257,7 +257,7 @@ nav{
     display:inline-block;
     display:flex;
     margin-top: 0;
-    margin-bottom: 46;
+    margin-bottom: 46px;
 
     
 }
@@ -503,7 +503,7 @@ nav{
     display: flex;
     display: inline-block;
     margin: 0;
-    padding: 0 0 94 0 ;  
+    padding: 0 0 94px 0 ;  
 }
 .section-companies:focus{
     border: var(--link-color)
