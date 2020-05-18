@@ -544,7 +544,9 @@ nav{
     font-weight: 700;
     font-size: 22px;
     line-height: 1.2;
-    color: var(--secondary-text-color)  
+    color: var(--secondary-text-color)  ;
+
+    display: flex;
 }
 .logo:hover,
 .logo:focus{
@@ -599,4 +601,7 @@ nav{
     font-size: 12px;
     line-height: 2;
     text-align: center;
+
+    padding-bottom: 21px ;
+    padding-top: 18px;
 }
