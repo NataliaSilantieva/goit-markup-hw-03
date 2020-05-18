@@ -127,7 +127,7 @@ ul{
  .container{
     display: flex;
     display:inline-block;
-    width: 1230px;
+    width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
     margin: 0 auto;
@@ -198,8 +198,8 @@ nav{
 
 .site-address {
     display: flex;
-    
     display:inline-block;   
+    margin: 0;
 }
 .site-address li{
     display: flex;
