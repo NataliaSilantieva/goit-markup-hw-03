@@ -14,6 +14,10 @@
 body {
     background-color:var(--secondary-text-color); 
     font-family: Roboto, sans-serif;
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
     
 }
 a{
@@ -26,54 +30,6 @@ ul{
 }
 
 
-.button{
-    background-color: var(--link-color);
-    color: var(--secondary-text-color);
-    font-family: inherit;
-    font-size: 16px;
-    line-height: 1.9;
-    align-items: center;
-    text-align: center;
-
-    display: flex;
-    display: inline-block;
-    margin: 0 0 96px 0 ;
-    padding: 10px 32px;
-    border-radius: 4px;
-    border: transparent;
-
-
-}
-.hero.button:hover,
-.hero .button:focus{
-    background-color: var(--link-color);
-    color: var(--secondary-text-color);
-    font-family: inherit;    
-}
-.button-footer{
-    background-color: var(--link-color);
-    color: var(--secondary-text-color);
-    font-family: inherit;
-    font-weight: 900;  
-    font-size: 16px;
-    line-height: 1.9;
-    letter-spacing: 0.06em;
-    text-align: center;
-
-    display: flex;
-    display: inline-block;
-    margin: 0 0 110px 0 ;
-    padding: 10px 45px 10px 46px;
-    border-radius: 4px;
-    border: transparent;
-}
-.button-footer:hover,
-.button-footer:focus{
-    background-color: var(--link-color);
-    color: var(--secondary-text-color);
-    font-family: inherit; 
-    font-weight: 900;
-}
 .buttons{
     background-color: var(--buttons-background);
     color: var(--primary-text-color);
@@ -121,6 +77,21 @@ ul{
     text-align: center;
 }
 <!-- Шапка сайта -->
+
+header{
+    width:1200px;
+}
+.upper-logo{
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.2;
+    color: var(--primary-text-color)    
+}
+.upper-logo:hover,
+.upper-logo:focus{
+    color: var(--link-color);
+}
 .container nav{
     display:flex;
     
@@ -136,7 +107,7 @@ ul{
 }
 
 .container .upper-logo{
-    display: flex;
+
     display: inline-block;
     margin: 24px 0 25px 0;
     display: inline-block;
@@ -230,15 +201,38 @@ address{
 
 <!-- Герой -->
 
+
+.hero.button:hover,
+.hero .button:focus{
+    background-color: var(--link-color);
+    color: var(--secondary-text-color);
+    font-family: inherit;    
+}
+.button{
+    background-color: var(--link-color);
+    color: var(--secondary-text-color);
+    font-family: inherit;
+    font-size: 16px;
+    line-height: 1.9;
+    text-align: center;
+
+
+    display: inline-block;
+    margin: 0  ;
+    padding: 10px 32px;
+    border-radius: 4px;
+    border: transparent;
+    min-width: 200px;
+
+
+}
 .hero{
     letter-spacing: 0.06em;
 
-    display:inline-block;
-    display:flex;
+    text-align: center;
     margin: 0;
     padding:0 0 94px 0;
-    outline: solid teal;
-    outline: teal;
+   
 }
 .hero-title {
     color: var(--secondary-text-color);
@@ -246,11 +240,10 @@ address{
     font-size: 44px;
     line-height: 1.4;
     text-align: center;
+    text-transform: uppercase;
     
-    display:inline-block;
-    display:flex;
-    margin-top: 0;
-    margin-bottom: 46px;
+    margin: 0;
+    padding-bottom: 46px;
 
     
 }
@@ -292,15 +285,12 @@ address{
     letter-spacing: 0.03em;
 
     
-    display:flex;
-    display: inline-block;
-    padding-bottom:94px ;
     padding-bottom: 94px;
     margin: 0;
 }
 .section-app{
     display:flex;
-    padding: 0;
+    padding: 0 0 94px 0;
     margin: 0;
 
 }
@@ -339,9 +329,10 @@ address{
         text-align: center;
         font-weight: 700;
 
-        display: inline-block;
-        padding: 0 410px 50px 410px;
+
+        padding: 94px 0 50px 0;
         margin: 0;
+        
     
     }
     <!--Комманда-->
@@ -573,17 +564,32 @@ footer{
 .logo:focus{
     color: var(--link-color);
 }
-.upper-logo{
-    font-family: Raleway, sans-serif;
-    font-weight: 700;
-    font-size: 26px;
-    line-height: 1.2;
-    color: var(--primary-text-color)    
+
+.button-footer{
+    background-color: var(--link-color);
+    color: var(--secondary-text-color);
+    font-family: inherit;
+    font-weight: 900;  
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    text-align: center;
+
+    display: flex;
+    display: inline-block;
+    margin: 0 0 110px 0 ;
+    padding: 10px 45px 10px 46px;
+    border-radius: 4px;
+    border: transparent;
 }
-.upper-logo:hover,
-.upper-logo:focus{
-    color: var(--link-color);
+.button-footer:hover,
+.button-footer:focus{
+    background-color: var(--link-color);
+    color: var(--secondary-text-color);
+    font-family: inherit; 
+    font-weight: 900;
 }
+
 .colortext{
     color:var(--link-color)
 }
