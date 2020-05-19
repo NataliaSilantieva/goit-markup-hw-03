@@ -14,7 +14,7 @@
 body {
     background-color:var(--secondary-text-color); 
     font-family: Roboto, sans-serif;
-
+    
 }
 a{
     text-decoration: none;
@@ -123,11 +123,10 @@ ul{
 <!-- Шапка сайта -->
 .container nav{
     display:flex;
-    display:inline-block;
+    
 }
  .container{
     display: flex;
-    display:inline-block;
     width: 1200px;
     padding-right: 15px;
     padding-left: 15px;
@@ -135,10 +134,7 @@ ul{
     align-items: center;
     
 }
-nav{
-    display: flex;
-    display:inline-block; 
-}
+
 .container .upper-logo{
     display: flex;
     display: inline-block;
@@ -191,26 +187,21 @@ nav{
     color:var(--link-color);
 }
 
-.contacts{
-    display: flex;
-    display:inline-block;
-    padding-left:  360px;  
-}
+ 
+
 
 .site-address {
-    display: flex;
-    display:inline-block;   
+    
+    display: inline-block;
+    margin:  0 ;
+    display: flex;  
     margin: 0;
+} 
+
+.site-address-list{
+    display: flex;  
 }
-.site-address li{
-    display: flex;
-    display:inline-block;  
-      
-}
- address{
-     display: flex;
- }
- .address-list {
+.address-list{
     color: var(--accent-color);
     letter-spacing: 0.2em;
     font-style: normal;
@@ -218,12 +209,13 @@ nav{
     font-size: 14px;
     line-height: 1.1px;
     letter-spacing: 0.02em;
-
-   
-    display: inline-block;
-    margin:  0 ;
-  
+}    
 }
+ address{
+    
+     font-style: normal;
+ }
+ 
 .site-address :last-child{
     padding-left: 50px;
 }
@@ -422,7 +414,6 @@ nav{
 .social-links{
     color:var(--social-link-color);
     
-    
     display: flex;
     display: inline-block;
     margin: 0;
@@ -538,7 +529,26 @@ nav{
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 1.1;
+   
 }
+.footer-container{
+    color: var(--secondary-text-color);
+    background-color:var(--footer-background);
+    font-weight: 700;
+    letter-spacing: 0.03em;
+    font-size: 14px;
+    line-height: 1.1;
+
+    display: flex;
+   
+    width: 1200px;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: 0 auto;
+    align-items: baseline;
+   
+}
+
 
 .logo{
     font-family: Raleway, sans-serif;
@@ -568,15 +578,9 @@ nav{
 .colortext{
     color:var(--link-color)
 }
-.address{
-    font-size: 14px;
-    line-height: 1.7;
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.7;
-    letter-spacing: 0.03em;
 
-}
+    
+
 .address:hover,
 .address:focus{
     color: var(--link-color);
