@@ -86,7 +86,10 @@ header{
     font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
-    color: var(--primary-text-color)    
+    color: var(--primary-text-color)  ;
+    
+    padding-top: 24px;
+    padding-bottom: 25px;
 }
 .upper-logo:hover,
 .upper-logo:focus{
@@ -106,31 +109,26 @@ header{
     
 }
 
-.container .upper-logo{
-
-    display: inline-block;
-    margin: 24px 0 25px 0;
-    display: inline-block;
-}
 
 .pages{
-    display: flex;
-    display: inline-block;
-    margin: 0;
+    
+    margin: 0 331px 0 0;
     padding: 0; 
 
 }
+
 .pages-list{
-    display: flex;
+    
     display: inline-block;
-    margin: 32px 50px 32px 0 ;
-    padding: 0;
+    margin: 0  50px 0  0;
+    padding: 32px 0 32px 0;
  }
 
  .pages-list:first-child {
-     margin-left: 86px;
+     margin-left: 85px;
  }
- .pages-list :last-child{
+ 
+ .pages-list:last-child{
      margin-right: 0;
  }
 
@@ -163,15 +161,20 @@ header{
 
 .site-address {
     
-    display: inline-block;
-    margin:  0 ;
+    
     display: flex;  
     margin: 0;
+    padding: 0;
 } 
-
-.site-address-list{
-    display: flex;  
+.address-list{
+    
+    padding: 0;
 }
+
+.site-address :not(:last-child) {
+    padding-right: 50px;
+}
+
 .address-list{
     color: var(--accent-color);
     letter-spacing: 0.2em;
@@ -180,6 +183,7 @@ header{
     font-size: 14px;
     line-height: 1.1px;
     letter-spacing: 0.02em;
+
 }    
  
 address{
@@ -187,9 +191,7 @@ address{
      font-style: normal;
  }
  
-.site-address :last-child{
-    padding-left: 50px;
-}
+
 
 
 
