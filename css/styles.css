@@ -6,7 +6,8 @@
     --accent-color:#757575;
     --link-color:#2196f3;
     --buttons-background:#f5f4fa; 
-    --social-link-color:#AFB1B8;   
+    --social-link-color:#AFB1B8; 
+    --footer-background:#2F303A;  
 }
 
 
@@ -532,7 +533,7 @@ nav{
 
 .footer{
     color: var(--secondary-text-color);
-    background-color: #2f303a;
+    background-color:var(--footer-background);
     font-weight: 700;
     letter-spacing: 0.03em;
     font-size: 14px;
