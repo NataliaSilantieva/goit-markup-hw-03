@@ -552,7 +552,7 @@ footer{
 .footer-container{
     color: var(--secondary-text-color);
     background-color:var(--footer-background);
-    font-weight: 700;
+    font-weight: 500;
     letter-spacing: 0.03em;
     font-size: 14px;
     line-height: 2;
