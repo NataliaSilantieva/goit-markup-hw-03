@@ -80,7 +80,6 @@ header{
 }
 .upper-logo{
     font-family: Raleway, sans-serif;
-    font-weight: 700;
     font-size: 26px;
     line-height: 1.2;
     color: var(--primary-text-color)  ;
@@ -103,7 +102,6 @@ header{
     padding-left: 15px;
     margin: 0 auto;
     align-items: center;
-    justify-content: center;
     border-bottom: 1px solid #ECECEC;
 }
 
@@ -175,12 +173,11 @@ header{
 
 .address-list{
     color: var(--accent-color);
-    letter-spacing: 0.2em;
+    letter-spacing: 0.02em;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.1px;
-    letter-spacing: 0.02em;
 
 }    
  
