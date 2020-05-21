@@ -199,11 +199,14 @@ address{
 
 <!-- Герой -->
 
-.button :hover{   
+.hero .order-button:hover,
+.hero .order-button:focus{   
+   background-color: var(--primary-text-color); 
+   color:var(--secondary-text-color);
 }
 
 
-.button{
+.order-button{
     background-color: var(--link-color);
     color: var(--secondary-text-color);
     font-family: inherit;
